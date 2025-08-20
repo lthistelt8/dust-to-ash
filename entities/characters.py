@@ -6,7 +6,7 @@ class Character():
         self.attack = attack
         self.defense = defense
         self.speed = speed
-    
+
     def take_damage(self, damage):
         '''Take damage, reducing health'''
         self.health -= damage
