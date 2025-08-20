@@ -18,7 +18,7 @@ Combat is done in waves, with a Major Boss at the end of each wave. Like the pla
 - One enemy + 1 Major Boss
 - **Stats**: HP, ATK, DEF, SPD.
 - Fixed 2-wave run: enemy -> MB.
-    - Defeating MB 'grants' item (no persistence)
+  - Defeating MB 'grants' item (no persistence)
 - Generate seed for testing
 - **Terminal-run only**; choose move by number, enemy picks move at random
 
