@@ -1,12 +1,13 @@
-'''List of dicts of attack types'''
+'''Dict of dicts of attack types'''
 
-ATTACK_TYPES = [
+ATTACK_TYPES = {
     'Physical': {
         'blunt',
         'strike',
         'slash'
     },
-    'Elemental':
-    {'fire',
-     'poison'}
-]
+    'Elemental': {
+        'fire',
+        'poison'
+    }
+}
