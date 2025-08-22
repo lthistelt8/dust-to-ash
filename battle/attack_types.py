@@ -1,3 +1,5 @@
+'''List of dicts of attack types'''
+
 ATTACK_TYPES = [
     'Physical': {
         'blunt',
@@ -7,4 +9,4 @@ ATTACK_TYPES = [
     'Elemental':
     {'fire',
      'poison'}
-]
+     ]
