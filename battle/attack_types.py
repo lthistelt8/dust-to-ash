@@ -9,4 +9,4 @@ ATTACK_TYPES = [
     'Elemental':
     {'fire',
      'poison'}
-     ]
+]
