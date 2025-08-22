@@ -1,12 +1,15 @@
 '''Blueprint for player and enemy characters'''
 class Character():
     '''Methods shared across enemies and players'''
-    def __init__(self, name, health=1, attack=1, defense=1, speed=1):
+    def __init__(self, name, health=1, attack=1, defense=1, speed=1, resistances = None, weaknesses = None):
         self.name: str = name
         self.health: int = health
         self.attack: int = attack
         self.defense: int = defense
         self.speed: int = speed
+
+        resistances = []
+        weaknesses = []
 
     def take_damage(self, damage):
         '''Take damage, reducing health'''
@@ -32,4 +35,4 @@ class EnemyCharacter(Character):
 char1 = PlayerCharacter('char1')
 enemy1 = EnemyCharacter('enemy1')
 char1.attack_enemy('enemy1')
-enemy1.take_damage(enemy1)
+enemy1.take_damage(1)
