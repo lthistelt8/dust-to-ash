@@ -1,3 +1,5 @@
+'''Controls turn order in combat'''
+
 from attack_types import ATTACK_TYPES
 inCombat: bool = False
 
