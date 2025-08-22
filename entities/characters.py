@@ -31,8 +31,3 @@ class EnemyCharacter(Character):
     '''Enemy character methods'''
     super(Character)
     pass
-
-char1 = PlayerCharacter('char1')
-enemy1 = EnemyCharacter('enemy1')
-char1.attack_enemy('enemy1')
-enemy1.take_damage(1)
