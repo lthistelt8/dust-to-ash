@@ -1,3 +1,4 @@
+'''Blueprint for player and enemy characters'''
 class Character():
     '''Methods shared across enemies and players'''
     def __init__(self, name, health=1, attack=1, defense=1, speed=1):
