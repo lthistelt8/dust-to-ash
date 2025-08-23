@@ -21,6 +21,11 @@ def combat_loop(char1, enemy1):
         except ValueError:
             print("Must choose from the listed numbers!")
             return None
-        
+
         if choice == 1:
-            char1.
+            damage = char1.attack_enemy(enemy1)
+            print(f"{char1.name} attacks {enemy1.name} for {damage} damage!")
+            if enemy1.health == 0:
+                print(f"{enemy1.name} defeated!")
+                inCombat = False
+                break
